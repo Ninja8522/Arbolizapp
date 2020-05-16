@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@drawable/dialog_shape"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cambiarEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:textColor="#515C6F"
+        android:textColorHint="#515C6F"
+        android:textSize="25sp"
+        android:text="@string/correo_nuevo"
+         />
+
+    <EditText
+        android:id="@+id/editCorreo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/ejemplo_hotmail_com"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="56dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:textColor="#515C6F"
+        android:textColorHint="#515C6F"
+        android:textSize="25sp"
+        android:text="@string/confirmar_correo"
+        />
+
+    <EditText
+        android:id="@+id/confirmarCorreo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:background="@null"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="@string/ejemplo_hotmail_com"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/guardarCambioCorreo"
+        android:layout_width="207dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_redondo"
+        android:backgroundTint="#019A13"
+        android:fontFamily="@font/roboto_black"
+        android:layout_marginBottom="40dp"
+        android:text="@string/guardar_cambios"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

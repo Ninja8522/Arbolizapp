@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.Perfil">
+
+    <ImageView
+        android:id="@+id/fotoVivero"
+        android:layout_width="169dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center|top"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="170dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appColor"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="342dp"
+        android:layout_height="495dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="500px"
+        android:src="@drawable/trazadobueno">
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="377dp"
+        android:layout_height="367dp"
+        android:layout_marginTop="150dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/viewnombrevivero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/usuario"
+            android:textColor="@color/appColor"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/datoUsuarioVivero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="#515C6F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCorreoViviero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/correo"
+            android:textColor="@color/appColor"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/datoCorreoVivero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="#515C6F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewTelefonoVivero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/telefono"
+            android:textColor="@color/appColor"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/datoTelefonoVivero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="#515C6F"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

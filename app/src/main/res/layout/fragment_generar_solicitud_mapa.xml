@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/generarSolMapa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.generar.GenerarSolicitudMapaFragment" >
+
+    <SearchView
+        android:id="@+id/buscarUbicacion"
+        android:layout_width="247dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shear_radium"
+        android:iconifiedByDefault="false"
+        android:padding="5dp"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="Search Something"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023">
+    </SearchView>
+
+    <Button
+        android:id="@+id/generar"
+        android:layout_width="234dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_redondo"
+        android:backgroundTint="@color/appColor"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center"
+        android:text="GENERAR"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ubicacionMapa2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <fragment
+        android:id="@+id/ubicacionMapa2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="413dp"
+        android:layout_height="497dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="104dp"
+        android:apiKey="@string/google_maps_key"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

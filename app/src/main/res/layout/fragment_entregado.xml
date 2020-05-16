@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.Entregado">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appColorVivero"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="383dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="50px"
+        android:layout_marginTop="260px"
+        app:cardElevation="10dp">
+        <ListView
+            android:id="@+id/entregado"
+            android:layout_width="383dp"
+            android:layout_height="206dp"
+            android:layout_marginStart="100px"
+            android:divider="@null"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="342dp"
+        android:layout_height="495dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="500px"
+        android:src="@drawable/trazadobueno"
+        />
+</FrameLayout>
+
