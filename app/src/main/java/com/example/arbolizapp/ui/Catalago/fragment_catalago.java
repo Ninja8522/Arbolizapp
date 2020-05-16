@@ -17,6 +17,12 @@ import android.widget.TextView;
 
 import com.example.arbolizapp.R;
 
+/**
+ * Este es el código correspondiente a la funcionalidad del fragment, de momento esta como se generan por defecto los fragments de un menú,
+ * ya que aun no e diseñado la interfaz correspondiente a este fragment.
+ */
+
+
 public class fragment_catalago extends Fragment {
 
     private CatalagoViewModel catalagoViewModel;

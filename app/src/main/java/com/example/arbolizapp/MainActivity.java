@@ -42,6 +42,12 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Código encargado del activity de login, la URL en el es para usar el codigo de php que permite la conexion a la app,
+ * en este se optiene la informacion que se va a mandar al fragment de perfil, tambien es el encargado de permitir ir al registro
+ * de usuario en caso de no tener uno.
+ */
+
 public class MainActivity extends AppCompatActivity {
     private TextView tv_register, tvOlvidecontraseña;
     private EditText user_email, pass;
@@ -63,7 +69,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (obtenerEstadoCheckBox()){
-            
+            /**
+             * Por medio de un sharedpreferece obtengo el tipo del usuario que mantuvo iniciada su sesion, esto para que el diseño que se cargue
+             * sea el correspondiente a ese usuario.
+             */
+
             SharedPreferences obtenerTipo = getSharedPreferences("TipoDeUsuario", 0);
             String userType = obtenerTipo.getString("user_type","");
             
@@ -278,7 +288,6 @@ public class MainActivity extends AppCompatActivity {
                                         startActivity(intentVivero);
                                         MainActivity.this.finish();
                                     }
-
 
                                 }
 

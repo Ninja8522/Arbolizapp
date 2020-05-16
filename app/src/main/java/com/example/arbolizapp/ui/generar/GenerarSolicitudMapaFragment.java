@@ -9,7 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.arbolizapp.R;
-
+/**
+ * Este es el codigo de seleccionar la ubicacion de la solucitud, manda llamar su propio diseño.
+ */
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link GenerarSolicitudMapaFragment#newInstance} factory method to

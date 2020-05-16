@@ -9,6 +9,10 @@ import com.example.arbolizapp.Controlador.PagerController;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
+
+/**
+ * Código correspondiente al activity que contiene los diseños de los tabs de vivero.
+ */
 public class ViverpActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;

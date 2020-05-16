@@ -21,6 +21,9 @@ import com.example.arbolizapp.R;
 import com.example.arbolizapp.interfaces.IComunicaFragment;
 
 import java.util.zip.Inflater;
+/**
+ * Código correspondiente al fragment de generar solicitud, el cual es llamado al dar clic al fab button que esta en el fragment de home.
+ */
 
 /*
  * A simple {@link Fragment} subclass.
@@ -82,6 +85,9 @@ public class GenerarSolicitudFragment extends Fragment {
 
         seleccionarUbicacion = root.findViewById(R.id.seleccionar);
 
+        /**
+         * Aqui mando llamar la funcion de seleccionarUbicacion que se encuentra en el comunicador de fragments
+         */
         seleccionarUbicacion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

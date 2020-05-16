@@ -43,6 +43,11 @@ import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;
 
+/**
+ * Este es el código que utilizamos para hacer las pruebas de conexion remota, lo que esta comentado es el codigo que usamos al con otra forma de conectividad
+ * aparte de volley.
+ */
+
 public class PruebaApi extends AppCompatActivity {
     Button conectar;
     String selectedImagePath;

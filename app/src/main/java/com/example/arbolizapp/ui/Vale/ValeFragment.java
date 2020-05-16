@@ -15,6 +15,10 @@ import android.widget.TextView;
 
 import com.example.arbolizapp.R;
 
+/**
+ * Este codigo corresponde al fragment de los vales, pero aun no diseño nada de esa interfaz por lo que no e metido nada de codigo.
+ */
+
 public class ValeFragment extends Fragment {
 
     private ValeVieweModel valeVieweModel;

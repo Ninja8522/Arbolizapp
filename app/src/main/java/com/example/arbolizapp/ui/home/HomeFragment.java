@@ -59,6 +59,10 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+/**
+ * Esta parte corresponde al fragmet de home, este es el primero en cargar al momento de iniciar sesion como un usuario generarl,
+ * de este se va al fragment de generar solicitud al precionar su fab button.
+ */
 public class HomeFragment extends Fragment implements OnMapReadyCallback {
 
     private GoogleMap mMap;

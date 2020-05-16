@@ -15,6 +15,11 @@ import com.example.arbolizapp.R;
 /**
  * A simple {@link Fragment} subclass.
  */
+
+/**
+ * Este es el código correspondiente a un fragment del vivero, en este caso es al de la sección de árboles por entregar
+ */
+
 public class PorEntregar extends Fragment {
 
 

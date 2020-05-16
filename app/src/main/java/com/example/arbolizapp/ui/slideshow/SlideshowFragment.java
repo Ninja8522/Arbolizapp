@@ -25,6 +25,12 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 
+/**
+ * Este codigo es el mismo caso de perfil que tiene el nombre de uno de los tres que se crean con el ejemplo del menu, como no supe como cambiar el nombre lo deje
+ * igual, de momento no le e metido nada de codigo pero sera el que carge la informacion de las solicitudes generadas por el usuario.
+ */
+
+
 public class SlideshowFragment extends Fragment implements OnMapReadyCallback {
 
     private SlideshowViewModel slideshowViewModel;

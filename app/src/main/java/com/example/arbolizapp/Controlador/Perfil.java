@@ -19,8 +19,17 @@ import com.squareup.picasso.Picasso;
 /**
  * A simple {@link Fragment} subclass.
  */
+
+/**
+ * Este es el código correspondiente a un fragment del vivero, en este caso es al de la sección de perfil la cual es
+ * la primera en cargar al momento de hacer login como usuario de tipo vivero.
+ */
+
 public class Perfil extends Fragment {
     ImageView fotoVivero;
+    /**
+     * La URL de abajo corresponde a la imgen que teno por defecto del vivero.
+     */
     String URL_FOTO = "http://192.168.56.1/android_register_login/uploads/vivero.png";
 
 

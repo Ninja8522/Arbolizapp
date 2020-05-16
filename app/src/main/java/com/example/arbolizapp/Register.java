@@ -32,6 +32,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
+/**
+ * Código del activity encargado de los registros de usuario.
+ */
+
+
 public class Register extends AppCompatActivity {
     private String tipo = "general", email, name, user, pass, passconf, phone = "##########", image = "default";
     private EditText correo, nombre, usuario, contraseña, confcontraseña;

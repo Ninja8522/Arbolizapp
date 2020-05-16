@@ -37,6 +37,12 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+
+/**
+ * Código encargado del menu que esta en el diseño de los usuarios generales, a este código le e movido muy poco,
+ * solo e ido agregando los fragment que cree yo para que el diseño de menu se muetre en estos tambien.
+ */
+
 public class MenuActivity extends AppCompatActivity implements IComunicaFragment {
 
 
@@ -121,6 +127,10 @@ public class MenuActivity extends AppCompatActivity implements IComunicaFragment
                 || super.onSupportNavigateUp();
     }
 
+    /**
+     * Aqui esta la parte que manda llamar los fragmet de generar solicitud y seleccionar ubicacion,
+     * generar es llamado desde el fragment de home y seleccionar es llamado desde el fragment de generar.
+     */
     @Override
     public void generarSolicitud() {
         Fragment generarSolicitudFragment = new GenerarSolicitudFragment();

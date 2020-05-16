@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * Este era el código inicial del activity que correspondia al perfil, pero debido a que se cambio a un fragment quedo aqui de manera innecesaria.
+ */
 public class Profile extends AppCompatActivity {
     Button cerrar;
     TextView datoUsuario, datoNombre, datoCorreo, datoTelefono;

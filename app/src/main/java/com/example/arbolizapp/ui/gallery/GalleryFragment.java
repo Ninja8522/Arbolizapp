@@ -60,17 +60,30 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 import static android.app.Activity.RESULT_OK;
 
+/**
+ * Este es el código del fragment de perfil de usuario, conserva el nombre de galllery por que no supe como cambiarle el nombre al archivo,
+ * pero en este apartado es donde trabaje el código completo del perfil de usuario.
+ */
+
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
     ImageView cambiarTelefono, cambiarCorreo, cambiarUsuario, cambiarFoto, fotoPerfil;
     View root;
+    /**
+     * Los enlaces abajo corresponden a en orden como estan, editar nombre de usuario, editar correo, editar telefono,
+     * subir la imagen a la carpeta donde se almacenan las fotos y por ultimo el enlace que carga la foto correspondiente al usuario que
+     * esta accediendo a la app.
+     */
     private static String URL_UPDATEUSER = "http://192.168.56.1/android_register_login/editUser.php";
     private static String URL_UPDATEEMAIL = "http://192.168.56.1/android_register_login/editEmail.php";
     private static String URL_UPDATEPHONE ="http://192.168.56.1/android_register_login/editPhone.php";
     private static String UPLOAD_URL = "http://192.168.56.1/android_register_login/upload.php";
     private static String URL_PERFIL = "http://192.168.56.1/android_register_login/uploads/";
     Bitmap bitmap;
+    /**
+     * Estas variables estan relacionadas con la foto de perfil.
+     */
     int PICK_IMAGE_REQUEST = 1;
     String KEY_IMAGE = "photo";
     String KEY_NOMBRE = "nombre";
@@ -83,6 +96,11 @@ public class GalleryFragment extends Fragment {
         root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         //final String texto = getArguments().getString("username");
+        /**
+         * Al momento de que se crea la vista de este fragment se asigna a las variables de abajo los campos de la imagen de lapiz del diseño de fragment,
+         * este es correspondiente a cada uno de los que estan a un lado de aquellas opciones que se pueden cambiar por el usuario.
+         * La ultima es para asignar el imageview que se tiene en el diseño a la variable fotoPerfil.
+         */
 
         cambiarUsuario = root.findViewById(R.id.cambiarUsuario);
         cambiarCorreo = root.findViewById(R.id.cambiarCorreo);
@@ -90,11 +108,19 @@ public class GalleryFragment extends Fragment {
         cambiarFoto = root.findViewById(R.id.cambiarImagen);
         fotoPerfil = root.findViewById(R.id.profilePicture);
 
+        /**
+         * En esta parte se relacionan los diferentes TextView con los que estan en el diseño, estos son los encargados de mostrar la informacion
+         * que presenta cada uno de los campos correspondientes al usuario que inicio sesion en la app.
+         */
+
         final TextView username = root.findViewById(R.id.datoUsuario2);
         final TextView fullname = root.findViewById(R.id.datofullname2);
         final TextView email = root.findViewById(R.id.datoemail3);
         final TextView phone = root.findViewById(R.id.datophone2);
 
+        /**
+         * Aqui se cacha la informacion que se manda desde el activity de login, se asigna a cada variable el valor que se optiene de ese campo.
+         */
 
         SharedPreferences prefs = getActivity().getSharedPreferences("Preferences", 0);
         String usuario = prefs.getString("username", "");
@@ -108,12 +134,19 @@ public class GalleryFragment extends Fragment {
         fullname.setText(nombreCompleto);
         email.setText(correo);
         phone.setText(telefono);
+        /**
+         * En esta parte se fija la imagen que tiene el usuario en ese momento.
+         */
         Picasso.get().load(URL_PERFIL+foto+".png").into(fotoPerfil);
         imageprof = Integer.parseInt(foto);
 
         cambiarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /**
+                 * Aqui creo un alertdialog para que vaya acorde a los diseños que se hicieron de la app, en este alertdialog solo hay un edittext y
+                 * un boton de guardado, cree un diseño de un fragment para este.
+                 */
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                 LayoutInflater inflater1 = getLayoutInflater();
@@ -130,13 +163,25 @@ public class GalleryFragment extends Fragment {
                 guardarNuevoUsername.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        /**
+                         * En esta parte meto la funcionalidad del boton de guardar, primero compruebo que no el campo de nombre de usuario no este vacio,
+                         * en caso de estarlo se manda un mensaje de error para que se ingrese un usuario.
+                         */
                         if (!nuevoNombreUsuario.getText().toString().isEmpty()){
+                            /**
+                             * En caso de que el campo no este vacio, creo una variable donde almaceno el texto del nuevo nombre y realizo un request.
+                             */
                             final String nombreUsuario = nuevoNombreUsuario.getText().toString();
                             StringRequest stringRequest = new StringRequest(Request.Method.POST, URL_UPDATEUSER,
                                     new Response.Listener<String>() {
                                         @Override
                                         public void onResponse(String response) {
                                             try {
+                                                /**
+                                                 * En caso de que la request tenga respuesta verifico que fue lo que llego, en el codigo de php de updateUsername
+                                                 * compruebo si en la base de datos hay o no usuario con ese nombre de usuario, dependiendop de que se optenga
+                                                 * es el mensaje que se despliega
+                                                 */
                                                 JSONObject jsonObject = new JSONObject(response);
                                                 String success = jsonObject.getString("success");
 
@@ -163,6 +208,9 @@ public class GalleryFragment extends Fragment {
                             {
                                 @Override
                                 protected Map<String, String> getParams() throws AuthFailureError {
+                                    /**
+                                     * Aqui le paso los datos correspondientes al codigo php para que lleve los datos a alterar en la base de datos.
+                                     */
                                     Map<String, String> params = new HashMap<>();
                                     params.put("username", nombreUsuario);
                                     params.put("id", id_usuario);
@@ -172,7 +220,10 @@ public class GalleryFragment extends Fragment {
 
                             RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getContext()));
                             requestQueue.add(stringRequest);
-
+                            /**
+                             * Aqui actualizo lo que se tiene en el SharedPreferences, para que al momento de salir de el fragment de perfil no se carge de nuevo
+                             * la anterior del SharedPreferences.
+                             */
                             SharedPreferences sharedPreferences = getActivity().getSharedPreferences("Preferences", 0);
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             editor.putString("username", nombreUsuario);
@@ -188,6 +239,10 @@ public class GalleryFragment extends Fragment {
         cambiarCorreo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /**
+                 * Esta parte no es diferente de lo anterior, solo cambia el hecho de que aqui hay dos campos a llenar, uno de
+                 * correo nuevo y otro de confirmar.
+                 */
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                 LayoutInflater in = getLayoutInflater();
@@ -205,10 +260,17 @@ public class GalleryFragment extends Fragment {
                 guardarNuevoCorro.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        /**
+                         * Aqui tambien asigno a una variable el texto que tiene el campo de nuevo correo solamente, ya que no es necesario guardar el de
+                         * confirmacion, el regex es para verificar si lo ingresado en el campo de email se ingreso en formato de email (@mail.com).
+                         */
 
                         final String comprobarEmail = nuevoCorreo.getEditableText().toString().trim();
                         final String regex = "(?:[^<>()\\[\\].,;:\\s@\"]+(?:\\.[^<>()\\[\\].,;:\\s@\"]+)*|\"[^\\n\"]+\")@(?:[^<>()\\[\\].,;:\\s@\"]+\\.)+[^<>()\\[\\]\\.,;:\\s@\"]{2,63}";
 
+                        /**
+                         * En este if se comprueba que los campos sean iguales, ninguno este vacio y que el formato ingresado corresponda a un email.
+                         */
                         if (nuevoCorreo.getText().toString().equals(confirmarCorreo.getText().toString())
                                 && !nuevoCorreo.getText().toString().isEmpty()
                                 && !confirmarCorreo.getText().toString().isEmpty()
@@ -272,6 +334,9 @@ public class GalleryFragment extends Fragment {
         cambiarTelefono.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /**
+                 * Aqui es exactamente igual a cambiar nombre de usuario
+                 */
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                 LayoutInflater in = getLayoutInflater();
@@ -347,6 +412,10 @@ public class GalleryFragment extends Fragment {
         cambiarFoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /**
+                 * Aqui el AlertDialog tiene dos botones, el primero para seleccionar una imagen almacenada y el segundo para guardar
+                 * la imagen.
+                 */
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                 LayoutInflater in = getLayoutInflater();
@@ -393,6 +462,9 @@ public class GalleryFragment extends Fragment {
         StringRequest stringRequest = new StringRequest(Request.Method.POST, UPLOAD_URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                /**
+                 * En esta parte al momentod de guardar la imagen el imageview se ve actualizado por la imagen que se selecciono y cargo al servidor.
+                 */
                 cargando.dismiss();
                 Toast.makeText(getContext(), response, Toast.LENGTH_SHORT).show();
                 fotoPerfil.setImageBitmap(bitmap);
@@ -424,6 +496,9 @@ public class GalleryFragment extends Fragment {
     }
 
     private void showFileChooser(){
+        /**
+         * Este es el encargado de abrir el selector de imagenes.
+         */
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
@@ -440,7 +515,6 @@ public class GalleryFragment extends Fragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
 
         if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.getData() !=null){
             Uri filePath = data.getData();
