@@ -42,7 +42,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-/*
+/**
  * Código encargado del activity de login, la URL en el es para usar el codigo de php que permite la conexion a la app,
  * en este se optiene la informacion que se va a mandar al fragment de perfil, tambien es el encargado de permitir ir al registro
  * de usuario en caso de no tener uno.
