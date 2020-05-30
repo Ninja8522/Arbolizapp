@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_inicio.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\inicio.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vacia.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\vacia.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bv.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\bv.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_menu_drawer.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\menu\\activity_menu_drawer.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_catalago.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_catalago.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hojas.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\hojas.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_cambiar_foto.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\cambiar_foto.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_estatus.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\estatus.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_barra.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\barra.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_generar_solicitud.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_generar_solicitud.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_invite.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\invite.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buscar.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\buscar.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_actionbar.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\actionbar.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_cambiar_usuario.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\cambiar_usuario.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icono_vivero.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\icono_vivero.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shear_radium.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\shear_radium.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_entregado.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_entregado.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_redondo.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\btn_redondo.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\font\\roboto.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_perfil.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\perfil.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_cambiar_correo.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\cambiar_correo.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_iconousuario.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\iconousuario.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\password.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vivero.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\activity_vivero.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trazadobueno.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\trazadobueno.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_prueba_api.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\activity_prueba_api.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\add.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_menu.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\content_menu.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_borde.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\borde.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_generar.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\generar.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile2.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\activity_profile2.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_generar_solicitud_mapa.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_generar_solicitud_mapa.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vale.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\vale.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_black.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\font\\roboto_black.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_por_entregar2.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_por_entregar2.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hoja.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\hoja.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_cambiarcontra.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\cambiarcontra.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\circle.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_catalago.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\catalago.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_menu.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\app_bar_menu.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camara.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\camara.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_corte.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\corte.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_editar.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\editar.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rama.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\rama.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_cambiar_telefono.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\cambiar_telefono.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_shape.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\dialog_shape.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_vale.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\fragment_vale.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_porentregar.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\porentregar.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hojas2.png.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\hojas2.png"
+    },
+    {
+        "merged": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    }
+]
