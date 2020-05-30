@@ -41,7 +41,7 @@ public class Register extends AppCompatActivity {
     private String tipo = "general", email, name, user, pass, passconf, phone = "##########", image = "default";
     private EditText correo, nombre, usuario, contraseña, confcontraseña;
     private Button btnRegistrar;
-    private static String URL_REGIST = "http://192.168.56.1/android_register_login/register.php";
+    private static String URL_REGIST = "https://arbolizappgreen.000webhostapp.com/register.php";
     private TextView tvLogin;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor edit;

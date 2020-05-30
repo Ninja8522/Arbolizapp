@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv_register, tvOlvidecontraseña;
     private EditText user_email, pass;
     private Button btnLogin;
-    private static String URL_LOGIN="http://192.168.56.1/android_register_login/login.php";
+    private static String URL_LOGIN="https://arbolizappgreen.000webhostapp.com/login.php";
     String usuario, password , email;
     private CheckBox recordar;
     SharedPreferences sharedPreferences;

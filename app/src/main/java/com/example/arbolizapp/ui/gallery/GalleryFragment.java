@@ -75,11 +75,11 @@ public class GalleryFragment extends Fragment {
      * subir la imagen a la carpeta donde se almacenan las fotos y por ultimo el enlace que carga la foto correspondiente al usuario que
      * esta accediendo a la app.
      */
-    private static String URL_UPDATEUSER = "http://192.168.56.1/android_register_login/editUser.php";
-    private static String URL_UPDATEEMAIL = "http://192.168.56.1/android_register_login/editEmail.php";
-    private static String URL_UPDATEPHONE ="http://192.168.56.1/android_register_login/editPhone.php";
-    private static String UPLOAD_URL = "http://192.168.56.1/android_register_login/upload.php";
-    private static String URL_PERFIL = "http://192.168.56.1/android_register_login/uploads/";
+    private static String URL_UPDATEUSER = "https://arbolizappgreen.000webhostapp.com/editUser.php";
+    private static String URL_UPDATEEMAIL = "https://arbolizappgreen.000webhostapp.com/editEmail.php";
+    private static String URL_UPDATEPHONE ="https://arbolizappgreen.000webhostapp.com/editPhone.php";
+    private static String UPLOAD_URL = "https://arbolizappgreen.000webhostapp.com/upload.php";
+    private static String URL_PERFIL = "https://arbolizappgreen.000webhostapp.com/uploads/";
     Bitmap bitmap;
     /**
      * Estas variables estan relacionadas con la foto de perfil.
@@ -138,7 +138,7 @@ public class GalleryFragment extends Fragment {
          * En esta parte se fija la imagen que tiene el usuario en ese momento.
          */
         Picasso.get().load(URL_PERFIL+foto+".png").into(fotoPerfil);
-        imageprof = Integer.parseInt(foto);
+        //imageprof = Integer.parseInt(foto);
 
         cambiarUsuario.setOnClickListener(new View.OnClickListener() {
             @Override

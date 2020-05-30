@@ -30,7 +30,7 @@ public class Perfil extends Fragment {
     /**
      * La URL de abajo corresponde a la imgen que teno por defecto del vivero.
      */
-    String URL_FOTO = "http://192.168.56.1/android_register_login/uploads/vivero.png";
+    String URL_FOTO = "https://arbolizappgreen.000webhostapp.com/uploads/vivero.png";
 
 
     public Perfil() {
