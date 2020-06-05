@@ -6,79 +6,79 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml
+8-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml
+9-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
 13         location permissions for the 'MyLocation' functionality.
 14    -->
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:9:5-79
-15-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:9:22-76
+15-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:10:5-67
-16-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:10:22-64
+16-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:10:22-64
 17
 18    <!-- Include required permissions for Google Maps API to run. -->
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 20
 21    <uses-feature
-21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 22        android:glEsVersion="0x00020000"
-22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 23        android:required="true" />
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 24
 25    <application
-25-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:12:5-59:19
+25-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:12:5-59:19
 26        android:allowBackup="true"
-26-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:13:9-35
+26-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:13:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.1.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:extractNativeLibs="false"
 30        android:icon="@mipmap/ic_launcher"
-30-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:14:9-43
+30-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:14:9-43
 31        android:label="@string/app_name"
-31-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:15:9-41
+31-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:15:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:16:9-54
+32-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:16:9-54
 33        android:supportsRtl="true"
-33-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:17:9-35
+33-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:17:9-35
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme"
-35-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:18:9-40
+35-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:18:9-40
 36        android:usesCleartextTraffic="true" >
-36-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:19:9-44
+36-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:19:9-44
 37        <activity
-37-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:20:9-22:72
+37-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:20:9-22:72
 38            android:name="com.example.arbolizapp.ViverpActivity"
-38-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:21:13-43
+38-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:21:13-43
 39            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-39-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:22:13-69
+39-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:22:13-69
 40        <activity
-40-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:23:9-26:59
+40-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:23:9-26:59
 41            android:name="com.example.arbolizapp.MenuActivity"
-41-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:24:13-41
+41-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:24:13-41
 42            android:label=""
-42-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:25:13-29
+42-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:25:13-29
 43            android:theme="@style/AppTheme.NoActionBar" />
-43-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:26:13-56
+43-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:26:13-56
 44        <activity android:name="com.example.arbolizapp.PruebaApi" />
-44-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:27:9-47
-44-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:27:19-44
+44-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:27:9-47
+44-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:27:19-44
 45        <activity
-45-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:28:9-31:72
+45-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:28:9-31:72
 46            android:name="com.example.arbolizapp.Profile"
-46-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:29:13-36
+46-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:29:13-36
 47            android:label=""
-47-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:30:13-29
+47-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:30:13-29
 48            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-48-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:31:13-69
+48-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:31:13-69
 49        <!--
 50             The API key for Google Maps-based APIs is defined as a string resource.
 51             (See the file "res/values/google_maps_api.xml").
@@ -88,84 +88,84 @@
 55             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 56        -->
 57        <meta-data
-57-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:40:9-42:55
+57-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:40:9-42:55
 58            android:name="com.google.android.geo.API_KEY"
-58-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:41:13-58
+58-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:41:13-58
 59            android:value="@string/google_maps_key" />
-59-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:42:13-52
+59-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:42:13-52
 60        <meta-data
-60-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:43:9-45:57
+60-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:43:9-45:57
 61            android:name="preloaded_fonts"
-61-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:44:13-43
+61-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:44:13-43
 62            android:resource="@array/preloaded_fonts" />
-62-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:45:13-54
+62-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:45:13-54
 63
 64        <activity
-64-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:47:9-49:72
+64-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:47:9-49:72
 65            android:name="com.example.arbolizapp.Register"
-65-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:48:13-37
+65-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:48:13-37
 66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-66-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:49:13-69
+66-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:49:13-69
 67        <activity
-67-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:50:9-58:20
+67-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:50:9-58:20
 68            android:name="com.example.arbolizapp.MainActivity"
-68-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:51:13-41
+68-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:51:13-41
 69            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-69-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:52:13-69
+69-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:52:13-69
 70            <intent-filter>
-70-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:53:13-57:29
+70-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:53:13-57:29
 71                <action android:name="android.intent.action.MAIN" />
-71-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:54:17-69
-71-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:54:25-66
+71-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:54:17-69
+71-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:54:25-66
 72
 73                <category android:name="android.intent.category.LAUNCHER" />
-73-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:56:17-77
-73-->C:\Daniel\Programacion\Android\Arbolizapp\app\src\main\AndroidManifest.xml:56:27-74
+73-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:56:17-77
+73-->C:\Users\cesar\OneDrive\Escritorio\Arbolizapp\App2\app\src\main\AndroidManifest.xml:56:27-74
 74            </intent-filter>
 75        </activity>
 76        <!-- Needs to be explicitly declared on P+ -->
 77        <uses-library
-77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 78            android:name="org.apache.http.legacy"
-78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 79            android:required="false" />
-79-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+79-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\7568ba76e7ca3967850522f169ef779d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 80
 81        <provider
-81-->[com.squareup.picasso:picasso:2.71828] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\ae646a8e518f9d234d332c13a9217c24\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+81-->[com.squareup.picasso:picasso:2.71828] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\ad650b0d2bb2266cf1de5e647205521a\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 82            android:name="com.squareup.picasso.PicassoProvider"
-82-->[com.squareup.picasso:picasso:2.71828] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\ae646a8e518f9d234d332c13a9217c24\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+82-->[com.squareup.picasso:picasso:2.71828] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\ad650b0d2bb2266cf1de5e647205521a\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 83            android:authorities="com.example.arbolizapp.com.squareup.picasso"
-83-->[com.squareup.picasso:picasso:2.71828] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\ae646a8e518f9d234d332c13a9217c24\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+83-->[com.squareup.picasso:picasso:2.71828] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\ad650b0d2bb2266cf1de5e647205521a\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 84            android:exported="false" />
-84-->[com.squareup.picasso:picasso:2.71828] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\ae646a8e518f9d234d332c13a9217c24\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+84-->[com.squareup.picasso:picasso:2.71828] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\ad650b0d2bb2266cf1de5e647205521a\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 85
 86        <activity
-86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 88            android:exported="false"
-88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 90
 91        <meta-data
-91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 92            android:name="com.google.android.gms.version"
-92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 93            android:value="@integer/google_play_services_version" />
-93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 94
 95        <provider
-95-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+95-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 96            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-96-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+96-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 97            android:authorities="com.example.arbolizapp.lifecycle-process"
-97-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+97-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 98            android:exported="false"
-98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 99            android:multiprocess="true" />
-99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\danih\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\cesar\.gradle\caches\transforms-2\files-2.1\f8e2b213c9c6535c422622afbf842b10\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 100    </application>
 101
 102</manifest>

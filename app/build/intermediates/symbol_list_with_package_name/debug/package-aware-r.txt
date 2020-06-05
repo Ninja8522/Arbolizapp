@@ -1608,7 +1608,6 @@ id async
 id auto
 id barra
 id barra2
-id barra3
 id barrier
 id beginning
 id bienvenidos
@@ -1739,7 +1738,6 @@ id icon_only
 id ifRoom
 id image
 id imageView
-id imageView10
 id imageView11
 id imageView12
 id imageView3
@@ -1763,7 +1761,6 @@ id line1
 id line3
 id listMode
 id list_item
-id loading
 id login
 id logo
 id mail
@@ -2204,6 +2201,8 @@ string contrase_a_nueva
 string correo
 string correo_nuevo
 string ejemplo_hotmail_com
+string entregado
+string entregados
 string error_icon_content_description
 string estatusSolicitud
 string exposed_dropdown_menu_content_description
@@ -2277,6 +2276,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string perfil
+string por_entregar
 string prompt_email
 string prompt_password
 string search_menu_title

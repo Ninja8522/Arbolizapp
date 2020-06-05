@@ -61,6 +61,9 @@
     <string name="correo">Correo:</string>
     <string name="title_activity_generar_solicitud">GenerarSolicitud</string>
     <string name="seleccionar_foto">SELECCIONAR FOTO</string>
+    <string name="por_entregar">Por entregar</string>
+    <string name="entregados">Entregados</string>
+    <string name="entregado">ENTREGADO</string>
 
 
 </resources>

@@ -1,66 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="413dp"
-        android:layout_height="627dp"
-        android:layout_marginBottom="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/tabLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </androidx.viewpager.widget.ViewPager>
-
-    <ImageView
-        android:id="@+id/barra3"
-        android:layout_width="419dp"
-        android:layout_height="30dp"
-        android:background="#019A13"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/vacia" />
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:layout_marginTop="629dp"
-        android:background="@drawable/borde"
-        app:cardElevation="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/barra3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tabTextColor="@color/appColorVivero">
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabpersona_fragment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:icon="@drawable/profile"
-            android:text="@string/perfil" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabporentregar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:icon="@drawable/porentregar"
-            android:text="Por entregar" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabentregados"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:icon="@drawable/invite"
-            android:text="Entregados" />
-    </com.google.android.material.tabs.TabLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:gravity="center"
+        android:layout_weight=".7"
+        android:layout_height="wrap_content">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="413dp"
+            android:layout_height="627dp"
+            >
+        </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tabGravity="center"
+                android:background="@drawable/borde"
+                app:tabTextColor="@color/appColorVivero">
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabpersona_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/profile"
+                    android:text="@string/perfil" />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabporentregar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/porentregar"
+                    android:text="@string/por_entregar"
+                    />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabentregados"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/invite"
+                    android:text="@string/entregados" />
+            </com.google.android.material.tabs.TabLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/barra"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#019A13"
+                app:srcCompat="@drawable/vacia" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,7 +1,7 @@
-#Fri May 29 20:48:43 MDT 2020
-base.0=C\:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Tue Jun 02 21:01:17 MDT 2020
+base.0=C\:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Daniel\\Programacion\\Android\\Arbolizapp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
