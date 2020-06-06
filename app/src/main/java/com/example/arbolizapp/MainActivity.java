@@ -218,6 +218,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONObject jsonObject = new JSONObject(response);
                             String success = jsonObject.getString("success");
                             JSONArray jsonArray = jsonObject.getJSONArray("login");
+                            JSONArray jsonArrayA = jsonObject.getJSONArray("arboles");
 
                             if (success.equals("1")){
 

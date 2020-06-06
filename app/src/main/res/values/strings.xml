@@ -64,6 +64,9 @@
     <string name="por_entregar">Por entregar</string>
     <string name="entregados">Entregados</string>
     <string name="entregado">ENTREGADO</string>
+    <string name="ver_mas">VER MÁS</string>
+    <string name="nombre">Nombre:</string>
+    <string name="familia">Familia:</string>
 
 
 </resources>

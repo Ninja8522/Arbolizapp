@@ -1657,6 +1657,8 @@ id cut
 id dark
 id date_picker_actions
 id datoCorreoVivero
+id datoFamiliaArbol
+id datoNombreArbol
 id datoTelefonoVivero
 id datoUsuario
 id datoUsuario2
@@ -1698,6 +1700,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id familiaArbol
 id fechaSolicitud
 id fill
 id fill_horizontal
@@ -1815,6 +1818,7 @@ id nav_view
 id navigation_header_container
 id never
 id noScroll
+id nombreArbol
 id none
 id normal
 id notification_background
@@ -1886,6 +1890,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner2
 id split_action_bar
 id spread
 id spread_inside
@@ -1920,7 +1925,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id text_catalago
 id text_input_end_icon
 id text_input_start_icon
 id text_vale
@@ -2208,6 +2212,7 @@ string estatusSolicitud
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string familia
 string google_maps_key
 string guardar_cambios
 string hello_blank_fragment
@@ -2266,6 +2271,7 @@ string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string nombre
 string nombre_de_usuario
 string nuevo_nombre_de_usuario
 string nuevo_tel_fono
@@ -2292,6 +2298,7 @@ string title_activity_home_map
 string title_activity_menu
 string tv_registrar
 string usuario
+string ver_mas
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -34,13 +34,13 @@ public class fragment_catalago extends Fragment {
         catalagoViewModel =
                 ViewModelProviders.of(this).get(CatalagoViewModel.class);
         View root = inflater.inflate(R.layout.fragment_catalago, container, false);
-        final TextView textView = root.findViewById(R.id.text_catalago);
+        /*final TextView textView = root.findViewById(R.id.text_catalago);
         catalagoViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
             }
-        });
+        });*/
         return root;
     }
 }
