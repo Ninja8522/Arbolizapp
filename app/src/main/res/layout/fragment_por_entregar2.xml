@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo"
     tools:context=".Controlador.PorEntregar" >
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:gravity="end"
         android:layout_height="wrap_content">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar3"
@@ -26,14 +26,14 @@
             android:background="@drawable/shear_radium"
             android:iconifiedByDefault="false"
             android:padding="5dp"
+            android:layout_gravity="end"
             android:layout_marginRight="15dp"
-            android:layout_marginTop="-35dp"
+            android:layout_marginTop="-45dp"
             android:translationZ="1dp"
             android:queryBackground="@android:color/transparent"
             android:queryHint="Search Something">
         </SearchView>
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_gravity="center"
@@ -68,12 +68,13 @@
             android:textSize="15sp">
         </Button>
     </LinearLayout>
-    <ImageView
+
+    <!--<ImageView
         android:id="@+id/imageView"
         android:layout_width="227dp"
         android:layout_height="723dp"
         android:layout_marginStart="180dp"
         android:scaleType="center"
         android:layout_gravity="end"
-        android:src="@drawable/rama"/>
+        android:src="@drawable/rama"/>-->
 </androidx.appcompat.widget.LinearLayoutCompat>

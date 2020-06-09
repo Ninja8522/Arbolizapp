@@ -9,6 +9,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -156,6 +158,7 @@ public class GalleryFragment extends Fragment {
                 builder.setView(view);
 
                 final AlertDialog dialog = builder.create();
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable((Color.TRANSPARENT)));
                 dialog.show();
                 final EditText nuevoNombreUsuario = view.findViewById(R.id.editUsuario);
 
@@ -252,6 +255,7 @@ public class GalleryFragment extends Fragment {
                 builder.setView(view);
 
                 final AlertDialog dialog = builder.create();
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable((Color.TRANSPARENT)));
                 dialog.show();
                 final EditText nuevoCorreo = view.findViewById(R.id.editCorreo);
                 final EditText confirmarCorreo = view.findViewById(R.id.confirmarCorreo);
@@ -346,6 +350,7 @@ public class GalleryFragment extends Fragment {
                 builder.setView(view);
 
                 final AlertDialog dialog = builder.create();
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable((Color.TRANSPARENT)));
                 dialog.show();
                 final EditText nuevoTelefono = view.findViewById(R.id.editTelefono);
 
@@ -423,6 +428,7 @@ public class GalleryFragment extends Fragment {
                 builder.setView(view);
 
                 final AlertDialog dialog = builder.create();
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable((Color.TRANSPARENT)));
                 dialog.show();
 
                 Button seleccionar = view.findViewById(R.id.seleccionarFoto);
@@ -454,6 +460,8 @@ public class GalleryFragment extends Fragment {
         byte[] imageBytes = baos.toByteArray();
         String encodeImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);
 
+        System.out.println(encodeImage);
+
         return encodeImage;
     }
 
@@ -463,7 +471,7 @@ public class GalleryFragment extends Fragment {
             @Override
             public void onResponse(String response) {
                 /**
-                 * En esta parte al momentod de guardar la imagen el imageview se ve actualizado por la imagen que se selecciono y cargo al servidor.
+                 * En esta parte al momento de guardar la imagen el imageview se ve actualizado por la imagen que se selecciono y cargo al servidor.
                  */
                 cargando.dismiss();
                 Toast.makeText(getContext(), response, Toast.LENGTH_SHORT).show();

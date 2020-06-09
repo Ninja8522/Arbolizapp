@@ -164,20 +164,11 @@
                     android:textSize="18sp" />
             </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="end"
-        android:orientation="horizontal">
-        <ImageView
-            android:id="@+id/fondo2"
-            android:layout_width="227dp"
-            android:layout_height="723dp"
-            android:layout_marginStart="180dp"
-            android:scaleType="center"
-            android:src="@drawable/rama"/>
-    </LinearLayout>
-
-
-
+    <ImageView
+        android:id="@+id/fondo2"
+        android:layout_width="wrap_content"
+        android:layout_height="723dp"
+        android:layout_marginStart="180dp"
+        android:scaleType="center"
+        android:src="@drawable/rama"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

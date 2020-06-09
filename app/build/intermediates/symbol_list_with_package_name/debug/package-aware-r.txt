@@ -1466,6 +1466,9 @@ drawable design_snackbar_background
 drawable dialog_shape
 drawable editar
 drawable estatus
+drawable fondo
+drawable fondo2
+drawable fondo3
 drawable generar
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1616,6 +1619,7 @@ id bottom
 id btnRegistrar
 id buscarUbicacion
 id buttonPanel
+id c_viewDatosSolicitud
 id cambiarCorreo
 id cambiarEmail
 id cambiarImagen
@@ -1658,8 +1662,11 @@ id dark
 id date_picker_actions
 id datoCorreoVivero
 id datoFamiliaArbol
+id datoFecha
 id datoNombreArbol
+id datoNumSolicitud
 id datoTelefonoVivero
+id datoUbiacion
 id datoUsuario
 id datoUsuario2
 id datoUsuarioVivero
@@ -1731,7 +1738,6 @@ id guardarCambioTelefono
 id guardarCambioUsuario
 id guardarFoto
 id hideable
-id hoja
 id home
 id homeAsUp
 id hybrid
@@ -1748,7 +1754,6 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
-id imageView9
 id imagen
 id include
 id info
@@ -2213,6 +2218,8 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string familia
+string fecha_de_solicitud
+string generar_evidencia
 string google_maps_key
 string guardar_cambios
 string hello_blank_fragment
@@ -2287,6 +2294,7 @@ string prompt_email
 string prompt_password
 string search_menu_title
 string seleccionar_foto
+string solicitud
 string status_bar_notification_info_overflow
 string tab_text_1
 string tab_text_2
@@ -2297,6 +2305,7 @@ string title_activity_generar_solicitud
 string title_activity_home_map
 string title_activity_menu
 string tv_registrar
+string ubicacion
 string usuario
 string ver_mas
 string welcome

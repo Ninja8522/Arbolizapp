@@ -67,6 +67,10 @@
     <string name="ver_mas">VER MÁS</string>
     <string name="nombre">Nombre:</string>
     <string name="familia">Familia:</string>
+    <string name="solicitud">Solicitud #:</string>
+    <string name="fecha_de_solicitud">Fecha de solicitud:</string>
+    <string name="generar_evidencia">GENERAR EVIDENCIA</string>
+    <string name="ubicacion">Ubicación:</string>
 
 
 </resources>

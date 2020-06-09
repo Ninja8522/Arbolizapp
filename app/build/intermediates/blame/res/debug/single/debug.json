@@ -144,6 +144,10 @@
         "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\drawable\\add.xml"
     },
     {
+        "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondo.jpeg.flat",
+        "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\drawable\\fondo.jpeg"
+    },
+    {
         "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
         "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\drawable\\logo.png"
     },
@@ -264,6 +268,10 @@
         "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\layout\\app_bar_menu.xml"
     },
     {
+        "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondo2.jpeg.flat",
+        "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\drawable\\fondo2.jpeg"
+    },
+    {
         "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -306,6 +314,10 @@
     {
         "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\layout_cambiarcontra.xml.flat",
         "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\layout\\cambiarcontra.xml"
+    },
+    {
+        "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondo3.jpeg.flat",
+        "source": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\src\\main\\res\\drawable\\fondo3.jpeg"
     },
     {
         "merged": "C:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_perfil.png.flat",

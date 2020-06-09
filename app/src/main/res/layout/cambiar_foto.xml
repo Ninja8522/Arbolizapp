@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:background="@drawable/dialog_shape"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:orientation="vertical"
-    android:layout_height="wrap_content">
+    android:background="@drawable/dialog_shape"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/seleccionarFoto"

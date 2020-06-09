@@ -63,8 +63,6 @@ public class MenuActivity extends AppCompatActivity implements IComunicaFragment
                         .setAction("Action", null).show();
             }
         });*/
-
-
         /*Bundle bundle = getIntent().getExtras();
 
         String datoUsuario = bundle.getString("username");
@@ -82,7 +80,6 @@ public class MenuActivity extends AppCompatActivity implements IComunicaFragment
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
         fragmentTransaction.replace(R.id.nav_host_fragment, nuevoFragmento);
         fragmentTransaction.commit();*/
-
 
         cerrar = findViewById(R.id.cerrarSesion);
 

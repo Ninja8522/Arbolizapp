@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo"
     tools:context=".Controlador.Perfil">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -114,13 +115,13 @@
                 android:textSize="18sp" />
         </LinearLayout>
     </LinearLayout>
-        <ImageView
+        <!--<ImageView
             android:id="@+id/fondo2"
             android:layout_width="227dp"
             android:layout_height="723dp"
             android:layout_marginStart="180dp"
             android:scaleType="center"
             android:layout_gravity="end"
-            android:src="@drawable/rama"/>
+            android:src="@drawable/rama"/>-->
 
 </androidx.appcompat.widget.LinearLayoutCompat>

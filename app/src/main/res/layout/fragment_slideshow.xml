@@ -1,117 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.slideshow.SlideshowFragment">
 
-    <ImageView
-        android:id="@+id/fondo"
-        android:layout_width="461dp"
-        android:layout_height="949dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="74dp"
-        android:scaleType="center"
-        android:src="@drawable/rama"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="332dp"
-        android:layout_height="429dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginEnd="204dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.286"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c_viewDatosSolicitud"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="74dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp">
 
-        <TextView
-            android:id="@+id/numSolicitud"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:fontFamily="@font/roboto"
-            android:text="Solicitud #: "
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/appColor"
-            android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
 
-        <TextView
-            android:id="@+id/fechaSolicitud"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:fontFamily="@font/roboto"
-            android:paddingTop="50dp"
-            android:text="Fecha de solicitud:"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/appColor"
-            android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/numSolicitud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/solicitud"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/appColor"
+                    android:textSize="20sp"></TextView>
 
-        <TextView
-            android:id="@+id/ubicacionSolicitud"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:fontFamily="@font/roboto"
-            android:paddingTop="120dp"
-            android:text="Ubicación:"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/appColor"
-            android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/datoNumSolicitud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
 
-        <!--<com.google.android.gms.maps.MapView
-            android:id="@+id/ubicacionMapa"
-            android:layout_width="204dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:apiKey="@string/google_maps_key"
-            android:layout_marginTop="180dp"
-            android:padding="60dp" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
 
+                <TextView
+                    android:id="@+id/fechaSolicitud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingTop="50dp"
+                    android:text="@string/fecha_de_solicitud"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/appColor"
+                    android:textSize="20sp"></TextView>
 
-        <LinearLayout
-            android:layout_width="199dp"
-            android:layout_height="124dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="180dp">
+                <TextView
+                    android:id="@+id/datoFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/ubicacionSolicitud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingTop="120dp"
+                    android:text="@string/ubicacion"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/appColor"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/datoUbiacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
 
             <fragment
                 android:id="@+id/ubicacionMapa"
                 android:name="com.google.android.gms.maps.SupportMapFragment"
-                android:layout_width="204dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="clip_horizontal|center_horizontal|fill_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
                 android:apiKey="@string/google_maps_key"
-                android:padding="60dp" />
-        </LinearLayout>
+                android:orientation="vertical"></fragment>
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="293dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="320dp"
-            android:layout_marginRight="15dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="325dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-        <Button
-            android:id="@+id/generarEvidencia"
-            android:layout_width="214dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="350dp"
-            android:layout_marginRight="50dp"
-            android:background="@drawable/btn_redondo"
-            android:backgroundTint="@color/appColor"
-            android:text="GENERAR EVIDENCIA"
-            android:textColor="#FFFFFF" />
-    </androidx.cardview.widget.CardView>
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <Button
+                    android:id="@+id/generarEvidencia"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/btn_redondo"
+                    android:backgroundTint="@color/appColor"
+                    android:text="@string/generar_evidencia"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo" />-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

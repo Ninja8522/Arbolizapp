@@ -1,4 +1,4 @@
-#Fri Jun 05 19:42:45 MDT 2020
+#Tue Jun 09 17:17:33 MDT 2020
 base.0=C\:\\Users\\cesar\\OneDrive\\Escritorio\\Arbolizapp\\App2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
